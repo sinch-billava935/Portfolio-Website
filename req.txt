@@ -1,0 +1,7 @@
+//color
+blue #6E92DB #4CD3F0
+purple #9F84DB #B788D1
+pink #DB84A9 #CDB4DB
+light greenish #B0DAD6 #95C3DB
+
+
