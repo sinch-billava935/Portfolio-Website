@@ -1,120 +1,170 @@
 /* styling for nav and hero section */
 
 .top-container {
-    background-color: #e4f9f5;
-    position: relative;
-    padding-top: 200px;
+  background-color: #e4f9f5;
+  position: relative;
+  padding-top: 200px;
 }
 .d-block {
-    width: 300px;
-    height: 300px;
-    border-radius: 50%; /* Makes the image circular */
-    object-fit: cover; /* Ensures the image fits inside the circle */
-  
-  }
-  .gradient-background {
-    background: linear-gradient(300deg, #CDB4DB, #DB84A9, #9F84DB);
-    background-size: 100% 100%;
-    animation: gradient-animation 18s ease infinite;
-
+  width: 300px;
+  height: 300px;
+  border-radius: 50%; /* Makes the image circular */
+  object-fit: cover; /* Ensures the image fits inside the circle */
+}
+.gradient-background {
+  background: linear-gradient(300deg, #cdb4db, #db84a9, #9f84db);
+  background-size: 100% 100%;
+  animation: gradient-animation 18s ease infinite;
 }
 
 /* Keyframes for the gradient animation */
 @keyframes gradient-animation {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 .lead {
-    color: #ffffff; /* Font color (white) */
-    font-family: 'Arial', sans-serif; /* Font style */
-    font-size: 20px; /* Font size */
-    line-height: 1.6; /* Improve readability with line spacing */
+  color: #ffffff; /* Font color (white) */
+  font-family: "Arial", sans-serif; /* Font style */
+  font-size: 20px; /* Font size */
+  line-height: 1.6; /* Improve readability with line spacing */
 }
 h1.display-5 {
-    font-family: "Sacramento", cursive;
-    font-size: 3rem; /* Adjust size for display */
-    font-weight: 700; /* Make it bold */
-    color: #343a40; /* Text color, adjust as needed */
-    margin-bottom: 20px; /* Adjust margin */
+  font-family: "Sacramento", cursive;
+  font-size: 3rem; /* Adjust size for display */
+  font-weight: 700; /* Make it bold */
+  color: #343a40; /* Text color, adjust as needed */
+  margin-bottom: 20px; /* Adjust margin */
 }
 
 /* Style for the social dropdown items */
 /* Dropdown menu styling */
 .dropdown-menu {
-    padding: 0;
-    margin: 0;
-    width: 50px; /* Adjust the width as needed */
+  padding: 0;
+  margin: 0;
+  width: 50px; /* Adjust the width as needed */
 }
 
 /* Style for individual dropdown items */
 .dropdown-item {
-    display: inline-flex;
-    justify-content: center; /* Center the icons */
-    padding: 10px 0; /* Adjust padding */
-   
+  display: inline-flex;
+  justify-content: center; /* Center the icons */
+  padding: 10px 0; /* Adjust padding */
 }
 
 .dropdown-item i {
-    font-size: 24px; /* Adjust icon size */
-    color: #343a40; /* Icon color */
+  font-size: 24px; /* Adjust icon size */
+  color: #343a40; /* Icon color */
 }
 
 /* Optional: add hover effect */
 .dropdown-item:hover i {
-    background-color: #f8f9fa; /* Light background on hover */
-    color: mediumvioletred; /* Change text color on hover */
+  background-color: #f8f9fa; /* Light background on hover */
+  color: mediumvioletred; /* Change text color on hover */
 }
 
 @media (min-width: 992px) {
-    .row-cols-lg-2>* {
-        flex: 0 0 auto;
-        width: 50%;
-    }
+  .row-cols-lg-2 > * {
+    flex: 0 0 auto;
+    width: 50%;
+  }
 }
 .img-fluid {
-    max-width: 100%;
-    height: auto;
+  max-width: 100%;
+  height: auto;
 }
+
 /* styling for About section */
 .contcontainer {
-    background-color: white;
-    border-radius: .75rem;
-    box-shadow: 5px 5px;
-    border: 3px solid;
-    color: black;
-    padding: 20px;
+  background-color: white;
+  border-radius: 0.75rem;
+  box-shadow: 5px 5px;
+  border: 3px solid;
+  color: black;
+  padding: 20px;
 }
-input[type=text], select, textarea {
-    color: #000000;
-    width: 100%;
-    padding: 12px;
-    border: 3px solid black;
-    border-radius: .75rem;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-    box-shadow: 3px 3px;
-    outline: none;
+input[type="text"],
+select,
+textarea {
+  color: #000000;
+  width: 100%;
+  padding: 12px;
+  border: 3px solid black;
+  border-radius: 0.75rem;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  box-shadow: 3px 3px;
+  outline: none;
 }
-input[type=submit] {
-    background-color: rgb(243, 72, 163);
-    border-radius: 30px;
-    box-shadow: 3px 3px black;
-    border: 3px solid black;
-    color: black;
-    padding: 6px;
+input[type="submit"] {
+  background-color: rgb(243, 72, 163);
+  border-radius: 30px;
+  box-shadow: 3px 3px black;
+  border: 3px solid black;
+  color: black;
+  padding: 6px;
 }
-.hoverit:hover i{
+.hoverit:hover i {
+  background-color: #f8f9fa; /* Light background on hover */
+  color: mediumvioletred; /* Change text color on hover */
+}
+/* === Skills Section Styling === */
+#skills {
+  padding: 60px 20px;
+  font-family: "Poppins", sans-serif;
+}
 
-    background-color: #f8f9fa; /* Light background on hover */
-    color: mediumvioletred; /* Change text color on hover */
+#skills h2 {
+  color: #2b2d42;
+  font-weight: 600;
+  margin-bottom: 40px;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.skills-container {
+  display: flex;
+  gap: 16px;
+  overflow-x: auto;
+  padding: 10px;
+  scroll-behavior: smooth;
+  white-space: nowrap;
+}
+
+.skill-card {
+  background-color: #fff;
+  border: 1px solid #f3d9e3;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.skill-category {
+  font-weight: 600;
+  color: #2b2d42;
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+}
+
+.skill-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skill-badge {
+  background-color: #fce6ef;
+  color: #2b2d42;
+  font-size: 0.9rem;
+  padding: 6px 14px;
+  border-radius: 16px;
+  border: 1px solid #f2b6d1;
 }
