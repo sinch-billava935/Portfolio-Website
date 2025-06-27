@@ -168,3 +168,26 @@ input[type="submit"] {
   border-radius: 16px;
   border: 1px solid #f2b6d1;
 }
+#form-submit {
+  background-color: #db84a9;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 30px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+#form-submit:hover {
+  background-color: #c76b96;
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(219, 132, 169, 0.3);
+}
+
+#form-submit:active {
+  transform: scale(0.98);
+  background-color: #b85785;
+  box-shadow: 0 3px 6px rgba(219, 132, 169, 0.2);
+}
